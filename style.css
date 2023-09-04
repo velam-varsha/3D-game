@@ -21,11 +21,11 @@
 }
 
 /* for script */
-#obstacles, #bull, #egg, #toad, #toads, #larva {
+/* #obstacles, #bull, #egg, #toad, #toads, #larva {
     display: none;
-}
+} */
 
 /* for sscript */
-/* #obstacles, #bull, #egg, #toad, #toads, #larva, #bark, #barkskin, #toadskin, #larva_sprite {
+#obstacles, #bull, #egg, #toad, #toads, #larva, #bark, #barkskin, #toadskin, #larva_sprite {
     display: none;
-}  */
+} 
