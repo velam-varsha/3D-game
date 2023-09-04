@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Bangers', cursive;
+}
+
+#canvas1 {
+    background: url('images/background.png');
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+#overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    pointer-events: none;
+}
+
+/* for script */
+#obstacles, #bull, #egg, #toad, #toads, #larva {
+    display: none;
+}
+
+/* for sscript */
+/* #obstacles, #bull, #egg, #toad, #toads, #larva, #bark, #barkskin, #toadskin, #larva_sprite {
+    display: none;
+}  */
